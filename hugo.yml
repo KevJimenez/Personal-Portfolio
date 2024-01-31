@@ -46,8 +46,8 @@ Menus:
 params:
   title: "Kevin Jimenez"
   description: A portfolio made of Hugo
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/hugo.jpg"
+  #staticPath: ""  # The path to serve the static files from
+  favicon: /hg.jpg
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -125,7 +125,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: /Resume (Jimenez, Kevin O.).pdf
       download: true
       newPage: false
     socialLinks:
@@ -155,6 +155,7 @@ params:
         - "Git"
         - "Proxmox"
         - "AWS EC2"
+        - "GitHub Actions"
 
   # Experience
   experience:
@@ -270,7 +271,7 @@ params:
       - title: Homelab Project v.1
         content: |-
          Repurposing my old laptop to a test server running multiple services (ie. JellyFin, Pihole, NextCloud, etc.) using an Ubuntu Server and a brief overview on how to use my homelab and how its structured. 
-
+        
          *See GitHub link below for the full documentation*
         image: /hldiagram.png
         badges:
@@ -282,32 +283,30 @@ params:
           - icon: fab fa-github
             url: https://github.com/KevJimenez/HomelabProject-v.1
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Automated Web Server Provisioning with Terraform and Ansible
+        content: An automated setup of infrastracture with configuration for a web server using IaC and CaC. Can be used to instantly deploy or destroy a web server. Configuration files are checked in to a git repository. Used Github Actions that is run on a local Ubuntu instance for the automation of the whole process.
+        image: /wserver.png
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Terraform"
+          - "Ansible"
+          - "Github Actions"
+          - "Git"
+          - "Amazon EC2"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/KevJimenez/IaC-for-Automation
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Personal Static Website
+        content: A personal website that is made with Hugo and hosted by an EC2 instance. Automated also by Github Actions and instantly updates the website for every push trigger.
+        image: /webpersonal.png
         badges:
           - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Apache"
+          - "Git"
+          - "GitHub Actions"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/KevJimenez/Hugo-Static
 
   #Contact
   contact:
