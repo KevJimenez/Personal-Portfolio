@@ -1,0 +1,1 @@
+[![Create Docker Image and Push to Private Repository](https://github.com/KevJimenez/Hugo-Static/actions/workflows/docker-img.yml/badge.svg)](https://github.com/KevJimenez/Hugo-Static/actions/workflows/docker-img.yml)
