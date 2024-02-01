@@ -28,4 +28,4 @@ jobs:
           push: true
           tags: kevjimenez/kjstatic:latest
           file: public/Dockerfile
-          context: public/
+          target: public/
