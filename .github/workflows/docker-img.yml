@@ -1,4 +1,4 @@
-name: ci
+name: Create Docker Image and Push to Private Repository
 
 on:
   push:
@@ -28,3 +28,4 @@ jobs:
           push: true
           tags: kevjimenez/kjstatic:latest
           file: public/Dockerfile
+          context: public/
