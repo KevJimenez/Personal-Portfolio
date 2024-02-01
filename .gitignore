@@ -1,0 +1,8 @@
+archetypes
+layouts
+resources
+static
+themes
+.hugo_build.lock
+hugo.yml
+.gitmodules
