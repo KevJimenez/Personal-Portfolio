@@ -6,8 +6,8 @@ A personal website that is made with Hugo and hosted by an EC2 instance. Automat
 ## Diagrams:
 - Personal-Website
 
-![hugo](hugo.png)
+![hugo](/public/hugo.png)
 
-- Whole CI/CD Pipeline of the Project [(Link to the Personal-Portfolio Repository)](https://github.com/KevJimenez/Hugo-Static)
+- Whole CI/CD Pipeline of the Project [(Link to the IaC-for-Automation Repository)](https://github.com/KevJimenez/IaC-for-Automation)
 
-![whole](whole.png)
+![whole](/public/whole.png)
